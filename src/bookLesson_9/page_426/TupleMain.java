@@ -3,10 +3,10 @@ package bookLesson_9.page_426;
 public class TupleMain {
     public static void main(String[] args) {
 
-        Tuple<String,String> tuple = new Tuple<>("Rabiul" ," Islam");
-        tuple.ShowTypes();
+        Tuple<String,String> fullName = new Tuple<>("Rabiul" ," Islam");
+        fullName.ShowTypes();
 
-        Tuple<String,Integer> person = new Tuple<>("Reham",3);
-        person.ShowTypes();
+        Tuple<String,Integer> nameAge = new Tuple<>("Reham",3);
+        nameAge.ShowTypes();
     }
 }

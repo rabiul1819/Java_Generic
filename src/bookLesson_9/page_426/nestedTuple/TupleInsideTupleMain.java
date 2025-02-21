@@ -10,6 +10,7 @@ public class TupleInsideTupleMain {
         tupleInsideTuple.showType();
 
         //Show inner tuple details
+        //tupleInsideTuple.getY().showType();
         tupleInsideTuple.getY().showType();
     }
 }
